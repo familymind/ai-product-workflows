@@ -1,0 +1,15 @@
+{
+  "name": "familymind",
+  "owner": {
+    "name": "familymind",
+    "email": "rdd@familymind.ai"
+  },
+  "plugins": [
+    {
+      "name": "familymind",
+      "source": "./plugins/familymind",
+      "description": "familymind internal knowledge base as auto-triggering skills: brand, marketing, content, LinkedIn founder voice, sales, finance, competitive intelligence, user testing, and product.",
+      "version": "0.2.0"
+    }
+  ]
+}
