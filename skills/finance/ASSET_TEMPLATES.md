@@ -6,7 +6,7 @@ This file provides reusable structures for finance-related assets.
 
 Use these templates to keep familymind finance communication consistent, credible, lean, fast to produce, and aligned with the finance guardrail.
 
-Important: templates do not replace the source hierarchy in `SKILL.md`. All numbers must still be checked against the latest live context and financial model.
+Important: templates do not replace the source hierarchy in `SKILL.md`. All numbers must still be checked against the **Tier 0 live finance facts block in `finance/SKILL.md`** and the financial model. The figures shown in the templates below are illustrative of the current state; if Tier 0 has been updated, the Tier 0 numbers win. Note the current fundraising direction is non-dilutive grants (applications outstanding) — do not insert public/equity-round language.
 
 ---
 
@@ -26,7 +26,7 @@ Use for investor emails, intros, meeting prep, form fields asking for current fi
 
 **Template:**
 
-familymind is still founder-owned and has not yet completed an institutional round. So far, we have secured 60k EUR in early external funding through business angels and governmental grants. We are currently operating lean, with app revenues covering recurring license costs, while founder salaries have not yet been paid.
+familymind is still founder-owned and has not yet completed an institutional round. So far, we have secured 60k EUR in early external funding through business angels and governmental grants. We are currently operating lean, with app revenues covering recurring license costs, while founder salaries have not yet been paid. Our current funding focus is non-dilutive grants, with applications submitted and decisions pending.
 
 ---
 
@@ -116,6 +116,7 @@ Use for data room intro, investor follow-up, due diligence doc.
 - Cash on hand: 12.5k EUR
 - Revenue status: app revenues cover recurring monthly license costs
 - Salary status: no founder salaries paid so far
+- Funding pipeline: non-dilutive grant applications submitted (outstanding, not secured)
 - Interpretation: lean and capital-efficient, but not yet reflective of a fully normalized operating cost base
 
 ---
@@ -145,6 +146,7 @@ Cap table — [founder-only / updated status]
 Revenue status — [what revenues currently cover]
 Cost status — [main recurring costs / any changes]
 Salary status — [founder salaries paid or not paid]
+Funding pipeline — [outstanding grant applications / other]
 Runway interpretation — [stable / pressured / improved / needs update]
 Main finance watchouts — [top 3 risks or unknowns]
 Next finance priorities — [top 3 priorities]
@@ -179,7 +181,7 @@ Subscription-based B2C with B2B2C expansion path
 - Lean cost base
 - No founder salaries paid so far
 
-*Next step:* Capital to accelerate product maturity, AI quality, and scalable go-to-market
+*Next step:* Non-dilutive grant funding (applications pending) to accelerate product maturity, AI quality, and scalable go-to-market
 
 ---
 
@@ -191,7 +193,7 @@ Not yet in the full sense. At the moment, app revenues cover our recurring month
 
 ## 15. Answer template — "How much have you raised?"
 
-So far, we have secured 60k EUR in early external funding through 2 business angel contributions and governmental grants. Our cap table remains fully founder-held.
+So far, we have secured 60k EUR in early external funding through 2 business angel contributions and governmental grants. Our cap table remains fully founder-held. (Submitted grant applications are separate and not counted here until awarded.)
 
 ---
 
@@ -210,8 +212,9 @@ The business is capital-efficient because we have validated early monetization, 
 ## 18. Usage rule for all templates
 
 Before using any template:
-- confirm the numbers are still current
+- confirm the numbers are still current against the Tier 0 live finance facts in `finance/SKILL.md`
 - confirm the wording matches the context
 - confirm no stronger claim is being made than the facts support
+- confirm submitted grant applications are never presented as secured funding
 
 If needed, reduce the ambition of the wording rather than stretching the facts.

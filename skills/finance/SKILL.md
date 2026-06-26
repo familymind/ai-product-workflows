@@ -1,4 +1,12 @@
+---
+name: finance
+description: "familymind finance guardrail and source of truth for live finance facts. Use for any finance-related output: investor answers and FAQs, fundraising framing, runway and cash position, burn and efficiency, cap table and ownership, grant finance narratives, business and revenue model summaries, deck finance slides, and due diligence prep. Enforces a strict source hierarchy and conservative wording, and distinguishes secured funding from submitted grant applications. Use whenever numbers about funding, cash, or revenue appear, even inside a marketing or sales asset."
+---
+
 # SKILL.md — familymind Finance Assets & Templates Guardrail
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> **Single source of truth for live finance facts.** The README must not restate these numbers — it should point here.
 
 ## Purpose
 
@@ -41,18 +49,17 @@ Always use sources in this order.
 
 This is the most current source of truth unless explicitly updated later.
 
-**Current finance facts for familymind:**
+**Current finance facts for familymind (as of 2026-06-04):**
 - Cap table is clean
 - No external investors on board yet — only the founders hold equity via their three holding entities:
   - mind the fam UG (Rosa Di Donna's holding)
   - AVogel Holding UG (Ariane Vogel's holding)
   - MA Holding UG (Mousa Abdelmaksoud's holding)
 - The operating company is familymind GmbH
-- Funding secured so far:
-  - 15k EUR from one business angel
+- Funding secured so far — 60k EUR total:
+  - 2 business angels at 15k EUR each = 30k EUR
   - 30k EUR from governmental grants
-  - 15k EUR from one business angel
-  - total secured external funding referenced here: 60k EUR
+  - (these two lines together are the 60k EUR of secured external funding referenced throughout this skill)
 - Current cash position: 12.5k EUR
 - Runway / operating status:
   - company is currently on a stable runway
@@ -65,16 +72,22 @@ This is the most current source of truth unless explicitly updated later.
 - Do not reference familymind as currently crowdfunding
 - Do not imply the Indiegogo campaign was a failure — frame it as an early validation step
 
-**Current fundraising direction:**
-- Next fundraising path is website-native pooling: raising from friends, family, and business angels directly via familymind's own website
-- Platforms under evaluation: Tokenize.it (free starter tier, website-native) and Roundtable (1% fee, pools angels into one clean SPV line on the cap table)
-- A pre-orders / market validation path on the website is also being planned in parallel
-- This is active planning as of March 2026 — update this block when a platform is chosen or a round is launched
+**Current fundraising direction (as of 2026-06-04):**
+- familymind is **not** running a public or crowd round. Do not describe any public/website pooling round as active.
+- The current path is **non-dilutive grant funding**. This keeps the cap table clean.
+- Three grant applications have been **submitted; results are outstanding** (no award notices yet):
+  - **Digitalbonus+ Bayern** — 60k EUR, 50% grant quota (implied grant up to ~30k EUR, with ~30k EUR own co-financing)
+  - **EXIST FTA / EKI** — 240k EUR, 75% grant quota (implied grant up to ~180k EUR)
+  - **WomenHorizon Call** — 55k EUR, 100% grant quota (implied grant up to ~55k EUR)
+- **Applied ≠ secured.** None of these three applications may be counted as funding, runway, or traction until an award notice is received. Treat them as pipeline only.
+- **Do not confuse the Digitalbonus+ 60k application with the 60k EUR already secured.** The secured 60k is past funding (2 angels + governmental grant). The Digitalbonus+ 60k is an outstanding application volume. They are unrelated amounts that happen to share a number.
+- Grant-quota note: the quota is the share of eligible project costs covered by the grant; the remainder is founder co-financing. Exact award amounts depend on approved eligible costs, so label any euro figure derived from a quota as approximate.
 
 **Interpretation rules for this live context:**
 - Do not describe familymind as fully venture-backed
 - Do not imply an institutional round has already happened
 - Do not imply payroll-supported growth unless explicitly stated
+- Do not present submitted grant applications as secured funding
 - When discussing burn, runway, or efficiency, note that current stability is helped by the absence of salary payouts
 - When discussing traction efficiency, distinguish clearly between software/license cost coverage and full operating break-even
 
@@ -124,7 +137,7 @@ Use this file for funding-application and public-innovation framing:
 
 Use for grant budgets, co-financing logic, innovation funding wording, economic and labor-market impact framing, project-based finance narrative, and TRL and evaluation-linked funding wording.
 
-Rule: grant logic should not automatically be mixed into operating model language unless clearly linked.
+Rule: grant logic should not automatically be mixed into operating model language unless clearly linked. Note that the active grant applications (Digitalbonus+ Bayern, EXIST FTA/EKI, WomenHorizon) are tracked in the Tier 0 live context above; this file is for framing and methodology, not for the current application status.
 
 ---
 
@@ -141,7 +154,7 @@ Rule: treat as archival context. Do not use old numbers from this file if newer 
 
 ### Legal and ownership note
 
-The operating company is **familymind GmbH**. Equity is held via three founder holding entities: mind the fam UG, AVogel Holding UG, and MA Holding UG. Business angels who have provided funding have not yet entered the cap table as equity holders. Convertible loan / SAFE structures are being researched as a potential instrument for incoming angels to convert into equity at a future round trigger.
+The operating company is **familymind GmbH**. Equity is held via three founder holding entities: mind the fam UG, AVogel Holding UG, and MA Holding UG. Business angels who have provided funding have not yet entered the cap table as equity holders. Convertible loan / SAFE structures are being researched as a potential instrument for incoming angels to convert into equity at a future round trigger. Note: the current near-term funding focus is non-dilutive grants (see Tier 0), not an equity round.
 
 ### Optional supporting commercial context
 
@@ -161,7 +174,8 @@ These are stable framing principles unless the user updates them.
 ### Ownership and funding status
 - familymind is founder-owned
 - no external investors are on the cap table yet
-- early external funding has been secured, but there has not been an institutional round
+- early external funding has been secured (60k EUR), but there has not been an institutional round
+- current near-term funding strategy is non-dilutive grants (applications outstanding, not secured)
 - avoid language that suggests a priced round has been completed unless explicitly confirmed
 
 ### Cash and runway
@@ -191,6 +205,7 @@ Use language like:
 - lean operating model
 - capital efficient
 - early external funding secured
+- non-dilutive grant funding (applications pending)
 - stable short-term runway
 - revenues currently covering recurring software license costs
 - low-burn structure
@@ -209,6 +224,7 @@ Do not say:
 - institutional round completed
 - salaried founder team
 - self-sustaining business model
+- grant-funded / grant secured (until an award notice exists)
 
 Only use these if explicitly true and confirmed by the user or current model: ARR, MRR, CAC, CLV, runway in months, burn multiple, break-even point, gross margin, contribution margin, EBITDA or profit language. If using any of these, source them from the financial model or clearly state they are estimates.
 
@@ -236,6 +252,7 @@ When generating finance outputs:
 - never state model outputs as facts if they are only scenarios
 - distinguish actuals, current status, projections, and aspirations
 - distinguish secured funding from target raise
+- distinguish secured funding from submitted grant applications
 - distinguish current cash from total historic funding
 - distinguish operating cost coverage from company-wide profitability
 - distinguish founder effort from salary expense
@@ -247,6 +264,8 @@ When presenting numbers: use EUR unless the user requests otherwise, keep format
 ## Mandatory distinctions to preserve
 
 **Secured vs available** — secured funding total is not the same as current cash on hand.
+
+**Secured vs applied** — the 60k EUR secured funding is not the same as the grant applications submitted (Digitalbonus+ Bayern, EXIST FTA/EKI, WomenHorizon). Applications are pipeline, not funding.
 
 **Revenue coverage vs profitability** — revenues covering recurring monthly license costs is not the same as company break-even.
 
@@ -262,7 +281,7 @@ When presenting numbers: use EUR unless the user requests otherwise, keep format
 
 Use this as a baseline summary unless the user asks for a different style:
 
-familymind is currently a founder-owned company with a clean cap table and no external investors on board. The business has secured 60k EUR in early external funding through 2 business angel contributions and governmental grants. Current cash stands at 12.5k EUR. The company is operating with a lean structure, and current app revenues cover recurring monthly license costs. However, no founder salaries have been paid so far, so this should be framed as capital-efficient early-stage stability rather than full operating break-even.
+familymind is currently a founder-owned company with a clean cap table and no external investors on board. The business has secured 60k EUR in early external funding through 2 business angel contributions (15k EUR each) and governmental grants. Current cash stands at 12.5k EUR. The company is operating with a lean structure, and current app revenues cover recurring monthly license costs. However, no founder salaries have been paid so far, so this should be framed as capital-efficient early-stage stability rather than full operating break-even. The near-term funding focus is non-dilutive grants, with applications currently submitted and awaiting decision.
 
 ---
 
@@ -270,7 +289,7 @@ familymind is currently a founder-owned company with a clean cap table and no ex
 
 Use when the user needs concise fundraising framing:
 
-familymind is founder-owned, capital-efficient, and early in its financing journey. We have secured 60k EUR in early non-institutional funding through business angels and governmental grants, while keeping the cap table clean and fully with the founders. Current app revenues cover recurring license costs, and the company is being built lean without founder salary payouts so far.
+familymind is founder-owned, capital-efficient, and early in its financing journey. We have secured 60k EUR in early non-institutional funding through business angels and governmental grants, while keeping the cap table clean and fully with the founders. Current app revenues cover recurring license costs, and the company is being built lean without founder salary payouts so far. Rather than a public or equity round, the current focus is non-dilutive grant funding, with applications submitted to Digitalbonus+ Bayern, EXIST FTA/EKI, and the WomenHorizon Call — results pending and not yet counted as secured.
 
 ---
 
@@ -278,6 +297,8 @@ familymind is founder-owned, capital-efficient, and early in its financing journ
 
 Internally apply this check before finalizing any finance-related output:
 - Did I confuse secured funding with available cash?
+- Did I confuse the 60k secured with the 60k Digitalbonus+ application?
+- Did I present a submitted grant application as secured funding?
 - Did I imply equity investors are on the cap table when they are not?
 - Did I imply profitability when only license-cost coverage is true?
 - Did I ignore that no salaries are currently paid?

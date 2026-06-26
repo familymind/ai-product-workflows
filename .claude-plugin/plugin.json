@@ -1,0 +1,12 @@
+{
+  "name": "familymind",
+  "version": "0.1.0",
+  "description": "familymind's internal knowledge base as auto-triggering skills: brand context plus marketing, content creation, Rosa's LinkedIn founder voice, sales, finance, competitive intelligence, user testing, and product.",
+  "author": {
+    "name": "familymind"
+  },
+  "homepage": "https://github.com/familymind/ai-product-workflows",
+  "repository": "https://github.com/familymind/ai-product-workflows",
+  "license": "UNLICENSED",
+  "keywords": ["familymind", "marketing", "sales", "finance", "product", "brand"]
+}
