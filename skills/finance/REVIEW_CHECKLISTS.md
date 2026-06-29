@@ -22,6 +22,7 @@ Use for every finance-related asset.
 ### Accuracy check
 - [ ] Did I distinguish current cash from total funding secured?
 - [ ] Did I distinguish secured funding from target raise?
+- [ ] Did I distinguish secured funding from submitted (outstanding) grant applications?
 - [ ] Did I distinguish actual numbers from forecast numbers?
 - [ ] Did I distinguish current operating reality from normalized future business economics?
 - [ ] Did I avoid inventing CAC, CLV, MRR, ARR, runway months, margins, or break-even dates unless sourced?
@@ -51,23 +52,11 @@ Use for every finance-related asset.
 
 ## 2. Live familymind finance facts — must-check block
 
-Before finalizing any asset, confirm consistency with this block:
+Before finalizing any asset, confirm consistency with the **Tier 0 live finance facts block in `finance/SKILL.md`**, which is the single source of truth. Do not restate the numbers here — read them from the source so this checklist never drifts out of date.
 
-- Cap table is clean
-- No external investors on board yet
-- Only founders are shareholders
-- Funding secured so far:
-  - 15k EUR business angel
-  - 30k EUR governmental grants
-  - 15k EUR business angel
-  - total referenced secured funding: 60k EUR
-- Current cash: 12.5k EUR
-- Operating status:
-  - app revenues cover recurring monthly license costs
-  - no salary payouts so far
-  - stable runway, but do not equate this with full break-even
+In particular confirm: cap table status, total secured funding, current cash, operating/runway status, and the status of any outstanding grant applications (which must be treated as pipeline, not secured funding).
 
-If the asset contradicts any of these, fix it before sending.
+If the asset contradicts the Tier 0 block, fix it before sending.
 
 ---
 
@@ -79,6 +68,7 @@ Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, d
 - [ ] Founder-owned and clean cap table language is correct
 - [ ] No institutional round is implied
 - [ ] Any funding reference distinguishes secured amount from cash on hand
+- [ ] Submitted grant applications are not presented as secured funding
 - [ ] Business angel money is not described as cap table participation unless explicitly updated
 - [ ] Current cash is described correctly
 - [ ] Revenue coverage is described as covering recurring license costs only
@@ -92,6 +82,7 @@ Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, d
 - venture-backed
 - fully funded
 - funded round completed
+- grant-funded / grant secured (until an award notice exists)
 - strong margins
 - scalable economics proven
 - recurring revenues cover the business
@@ -102,6 +93,7 @@ Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, d
 - early monetization proof
 - revenues currently cover recurring software license costs
 - founder-owned with early external funding secured
+- non-dilutive grant funding (applications pending)
 - disciplined cost structure
 
 ---
@@ -113,6 +105,7 @@ Use for grant applications, project budgets, innovation funding documents, subsi
 ### Must confirm
 - [ ] Grant finance logic is separated from investor finance logic where needed
 - [ ] Requested funding, co-financing, and cash are not conflated
+- [ ] Submitted applications are described as outstanding, not as secured funding
 - [ ] Innovation and impact claims do not rely on unsourced commercial assumptions
 - [ ] Project costs and operating costs are clearly distinguished
 - [ ] TRL and scaling statements match the relevant grant source
@@ -168,6 +161,8 @@ Use for fundraising decks, partner decks, strategy decks.
 
 Run this 30-second check before sending any finance output:
 - [ ] Did I confuse cash with funding secured?
+- [ ] Did I confuse the 60k secured with the 60k Digitalbonus+ application?
+- [ ] Did I present a submitted grant application as secured funding?
 - [ ] Did I imply angels are equity holders already?
 - [ ] Did I imply profitability?
 - [ ] Did I forget that no salaries are paid?

@@ -1,4 +1,12 @@
+---
+name: content-creation
+description: "Execution layer for drafting and finalizing familymind content. Use when turning a brief into a finished draft, rewriting or sharpening a weak draft, formatting copy for a specific channel, producing bilingual DE/EN versions, building content calendars, or repurposing long-form into short-form. Companion to the marketing skill (strategy and voice) and the linkedin skill (Rosa's founder voice). Reach for this when the task is producing or polishing the actual copy rather than deciding strategy."
+---
+
 # SKILL.md — familymind Content Creation Guardrail
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> **Founder voice:** For Rosa's personal founder voice and post structure, defer to `linkedin/SKILL.md` (the source of truth). This file owns execution mechanics (drafting, formatting, repurposing), not founder voice.
 
 ## Purpose
 
@@ -6,7 +14,7 @@ This skill governs the creation, review, and quality control of content assets f
 
 It is a companion to `marketing/SKILL.md`. Where the marketing skill defines strategy, voice, and channel rules, this skill defines the practical execution layer: how to draft, structure, format, and finalize content efficiently without losing brand consistency.
 
-Use this skill together with `marketing/SKILL.md` and `brand/BRAND_CONTEXT.md` for any content creation task.
+Use this skill together with `marketing/SKILL.md` and `brand/BRAND_CONTEXT.md` for any content creation task. For Rosa's personal LinkedIn posts, also load `linkedin/SKILL.md`.
 
 ---
 
@@ -70,10 +78,11 @@ Unless the task is explicitly a rough draft, deliver content that is ready to po
 ## Format rules by channel
 
 ### LinkedIn posts (founder or company)
+For Rosa's personal founder posts, voice and post structure are governed by `linkedin/SKILL.md` — load it. The mechanics below apply to LinkedIn formatting generally:
 - Natural paragraphing, not bullet lists
 - No staccato one-liners stacked on top of each other
 - No dashes in the final copy
-- CTA at the end, not the beginning
+- CTA at the end, not the beginning (for founder posts, the earned-CTA rule in `linkedin/SKILL.md` applies — a post may end without a CTA)
 - 150–300 words for most posts; longer for high-insight pieces
 - First 1–2 lines must earn the "see more" click
 

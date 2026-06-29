@@ -1,4 +1,11 @@
+---
+name: sales
+description: "familymind B2B2C sales and partner outreach. Use when creating sales assets or communication: cold and warm outreach to HR, benefits, and DEI decision-makers, partnership pitches and one-pagers, follow-up sequences, objection handling, discovery-call prep, employer proposals, ambassador and angel outreach (the Speak out Loud track and Andrea Boeckle pilot), and grant or ecosystem partnership narratives. Consultative and mission-aligned. Do not use for B2C user-acquisition copy (use marketing) or investor finance answers (use finance)."
+---
+
 # SKILL.md — familymind Sales Assets & Templates Guardrail
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
 
 ## Purpose
 
