@@ -28,8 +28,8 @@ by bare name (`chats`, not `core.chats`).
 
 ## Syntax rules (verified, these bite)
 
-- **Native PostgreSQL, not HogQL.** `count(*)` works, `count()` fails. Use `NOW()`, `::date`,
-  `ILIKE`, `->>` / `->` for JSON.
+- Restricted SQL dialect, not full PostgreSQL. Postgres semantics, but queries pass through PostHog's direct-query parser, which rejects some standard syntax. Confirmed working: count(*), NOW(), INTERVAL, ::date casts, ILIKE, ->>/->. Confirmed rejected: AT TIME ZONE ("expected ), got Ident"), and SQL date/timestamp literals like DATE '2026-06-25' ("literals not supported"). Derive date boundaries arithmetically instead: (NOW() - INTERVAL '7 days')::date, signup_at + INTERVAL '7 days'.
+- Timestamps are UTC; report in UTC. AT TIME ZONE does not parse here, so do not convert in-query. Filter and bucket on UTC ::date, and shift to Europe/Berlin downstream if a report needs local days. (Berlin is UTC+1/+2, so a UTC day boundary misplaces a small number of late-evening signups; acceptable for cohort sizing, not for exact single-day counts.)
 - **`FILTER (WHERE ...)` is silently dropped.** It does not error; it returns the *unfiltered*
   count for each column (verified: a member split returned 2376/2376/2376 instead of 1223/1153).
   Always use `sum(CASE WHEN cond THEN 1 ELSE 0 END)`. If every branch equals the total, suspect a
@@ -98,8 +98,7 @@ families (id)
 
 - **Soft deletes**: some tables carry `deleted_at` (e.g. `families`). Filter `deleted_at IS NULL`
   for live records.
-- **Timestamps are UTC.** Convert for local-time reporting (German base):
-  `created_at AT TIME ZONE 'Europe/Berlin'`.
+- **Timestamps are UTC.**
 - **Subscriptions span three tables**: `subscription_records` (`subscription_type` e.g.
   `CREATION`; `expires_at`), plus `subscription_record_from_apps` and
   `subscription_record_from_stores`. `families.subscription_end_date` is a denormalised shortcut.
