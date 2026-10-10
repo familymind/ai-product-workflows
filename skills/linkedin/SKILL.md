@@ -5,7 +5,7 @@ description: "Rosa Di Donna's personal LinkedIn founder voice. Use whenever writ
 
 # SKILL.md — Rosa Di Donna LinkedIn Founder Profile Guardrail
 
-> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> **Last reviewed:** 2026-10-10 · **Owner:** Rosa (CEO)
 > **Source of truth:** This file is the single source of truth for Rosa's founder voice. `marketing/SKILL.md` and `content-creation/SKILL.md` defer here for anything about how Rosa sounds, what she posts about, and how her posts are structured. If those files disagree with this one on founder voice, this file wins.
 
 ## Purpose
@@ -14,7 +14,7 @@ This skill governs the creation of content for Rosa Di Donna's personal LinkedIn
 
 It is distinct from the familymind company page and from general marketing assets. This skill is specifically about Rosa's personal brand as a founder — the intersection of her personal story, her professional authority, her mission, and her role as the public face of familymind.
 
-Always load `brand/BRAND_CONTEXT.md` alongside this skill for company and product context.
+Always load `brand/BRAND_CONTEXT.md` alongside this skill for company and product context, and `brand/ROSA_VOICE.md` for how Rosa actually speaks (derived from her own transcripts; binding for all first-person content and stronger than the structural guidance below).
 
 ---
 
