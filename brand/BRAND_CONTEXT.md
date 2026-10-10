@@ -52,20 +52,27 @@ familymind stands for:
 
 The core product is called **familymind** or, more specifically, the **familymind Home Hub**.
 
-- "familymind Home Hub" is the full product name used on the website and in marketing (e.g. `familymind.ai/product/familymind-home-hub/`)
-- Use "familymind" for general references; use "familymind Home Hub" when naming the product specifically in landing pages, partnerships, or product-focused copy
+- "Home Hub" was the crowdfunding promise of a shared family screen; the **web app** (app.familymind.ai) delivers it, and Rosa's newsletters use that framing. The old product URL `familymind.ai/product/familymind-home-hub/` no longer exists (404, checked 10 Oct 2026), so do not link it.
+- Use "familymind" for general references; "the familymind web app" or "the familymind app" when naming a surface.
 
-## Current product features (as of April 2026)
+## Current product (as of 10 October 2026)
 
-Key features agents should know when describing the product:
-- **Shared coordination system** — tasks, planning, and family logistics managed together, not by one person
-- **Today timeline** — redesigned daily view for what is happening now
-- **Emotion slider** — tracks partner feeling and provides 7-day emotional analytics
-- **AI command bar** — natural language interface for managing family tasks
-- **Calendar integration** — ICS import to sync familymind calendar with external calendars
-- **Shared responsibility design** — built explicitly so both partners can see and take ownership, not just the primary user
+**Surfaces.** The mobile app (App Store, Play Store; live since the 31 Aug 2026 launch mail) and the **web app** at app.familymind.ai (Premium families from the week of 7 Oct 2026, every family from 12 Oct 2026). Same account, same data; family life happens on the laptop at work and the tablet in the kitchen, not only on the phone.
 
-These features are what make familymind different from a standard family organizer or to-do app.
+**What families get:**
+- **Family today**: one lane per family member, kids included (even without their own phone): today, now and next, done, and a look at tomorrow, plus the next six days
+- **Assistants (Skills)**: Mira for meal planning (family cookbook, recipes by screenshot or link, week plan, shopping list), Atlas for the schedule, Even for fair load sharing (who owns and finished what over four weeks, never ranked, one trade at a time), Mile for goals, Bridge for family talks, Pip for children's health. In the web app some appear as jobs: Dinners, Fair share, Talk it through (private)
+- **Chat and AI command bar**: offload whatever is in your head in plain language; familymind adds it and thinks ahead
+- **Two-way calendar sync with Google Calendar and Apple Calendar (iCal)**: Google connects directly in the browser; Apple calendars are connected once in the iPhone app and then appear on the web too
+- **famory / Family Memory**: what familymind learns about the family over time (the web app UI says "Family Memory"; avoid "Family IQ")
+- **Proactive push**: suggestions and reminders before you ask
+- **Today timeline, emotion slider, shared responsibility design**: built so both partners see and own the plan
+
+**Free and Premium.** The free version lets families try everything. Premium unlocks the assistants for everyday use, full calendar sync, Family Memory and suggestions before you ask, as **one subscription for the whole family**. Premium can be bought in the web app and in the mobile app; **marketing always points to checkout in the web app** (higher margin). Do not write "without limits": a fair-use cap on AI messages applies to every plan. Prices only from the current pricing page.
+
+**Beyond the app.** **The Mental Load Shift**: a coached program with Andrea Böckle (Work Futurists) that makes care responsibility visible and redistributes it, with the app between sessions; runs as open cohorts and as a 120-day corporate pilot with Merz Lifecare (from 21 Oct 2026). **Funnel engines**: the Mental Load Test (`familymind.ai/mental-load-score`, `/de/mental-load-score`) and the printables (`familymind.ai/printables`).
+
+These are what make familymind different from a standard family organizer or to-do app.
 
 ## Brand name rules
 
