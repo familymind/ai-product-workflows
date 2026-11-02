@@ -159,12 +159,7 @@ Avoid: empty startup phrases, buzzword stacking, overclaiming, preachy parenting
 
 ## Legal entity structure
 
-The operating company is **familymind GmbH**. Three holding entities sit behind it:
-- **mind the fam UG** — Rosa's holding
-- **AVogel Holding UG** — Ariane Vogel's holding
-- **MA Holding UG** — Mousa Abdelmaksoud's holding
-
-When referencing the company in legal or finance contexts, use "familymind GmbH." The holding structure is not relevant to brand or marketing communication.
+The operating company is **familymind GmbH**. When referencing the company in legal or finance contexts, use "familymind GmbH."
 
 ## Key product concept: famory
 
