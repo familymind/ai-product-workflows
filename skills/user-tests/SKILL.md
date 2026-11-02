@@ -1,4 +1,12 @@
+---
+name: user-tests
+description: "familymind user testing assets and synthesis. Use when creating or reviewing test plans, interview scripts, moderator guides, task scenarios, screeners, recruitment messages, note-taking and synthesis templates, insight readouts, or translating findings into product decisions. Decision-oriented and consistent across rounds; includes the two-segment (existing vs new user) protocol and confidence thresholds. Do not use for product specs (use product) or marketing copy."
+---
+
 # SKILL.md — User Test Assets and Templates Guardrail
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Mousa (CTO)
+> Operational test dates live in the "Test rounds log" at the bottom, not inline in the protocol, so the protocol itself stays reusable across rounds.
 
 ## Purpose
 
@@ -81,7 +89,7 @@ Use consistent structures, question types, and observation frameworks across tes
 
 ### Participant quality over quantity
 
-For early-stage familymind testing, 5 to 10 participants per round is usually enough to identify major patterns. The current sharpened target profile for recruitment (as of April 2026 alpha phase) is:
+For early-stage familymind testing, 5 to 10 participants per round is usually enough to identify major patterns. The standing sharpened target profile for recruitment (established during the April 2026 alpha) is:
 
 - dual-career parents (both partners working)
 - 2 or more children
@@ -161,7 +169,7 @@ When reporting findings, always label confidence:
 
 ## Two-segment testing protocol
 
-As of April 2026, familymind runs structured two-segment tests for new product versions. This protocol must be followed for any test that involves both existing and new users.
+familymind runs structured two-segment tests for new product versions. This protocol must be followed for any test that involves both existing and new users.
 
 ### The two segments
 
@@ -211,14 +219,26 @@ Critical rule: **never combine analysis or reporting across segments.** Findings
 
 **Existing users:** What feels worse than before? What did you miss immediately? What is clearly better? Probe: migration pain points, feature parity gaps.
 
-### Operational notes
+### Operational notes (reusable defaults per round)
 
-- Current alpha/beta test start date: 15 April 2026, duration 2 weeks
+- Test duration: 2 weeks per participant unless otherwise specified
 - All test data is deleted after the test period
-- Participants must provide their email and their partner's email upfront so both can be added to the tester group
+- Participants must provide their email and their partner's email upfront so both can be added to the tester group. (Open item: confirm consent basis for adding the partner before scaling recruitment in the DACH/EU market.)
 - Test instructions: https://familymind.ai/how-to-beta-test/
 - Stagger participant start dates if needed to manage interview load
 - Ensure device and platform mix reflects the real target user base
+
+---
+
+## Test rounds log
+
+Record each completed round here so the protocol above stays date-neutral.
+
+| Round | Dates | Segments | Notes |
+|-------|-------|----------|-------|
+| Alpha Round 1 | April–May 2026, concluded 30 May 2026 | Two alpha cohorts, A/B compared | First structured two-segment alpha. Started 15 April 2026. |
+
+When a new round is scheduled, add a row here with its dates rather than editing the protocol.
 
 ---
 

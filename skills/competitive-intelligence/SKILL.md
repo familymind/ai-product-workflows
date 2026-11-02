@@ -1,4 +1,12 @@
+---
+name: competitive-intelligence
+description: "familymind competitor research and landscape analysis. Use when profiling a competitor, comparing familymind to other tools, building a competitive landscape for investors, checking whether a messaging claim is genuinely differentiated, producing feature comparisons, or assessing a competitor's funding or product move. Classifies competitors into the six buckets and always ends with the implication for familymind. Do not use for general market research with no competitive angle."
+---
+
 # SKILL.md — familymind Competitive Intelligence
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> `Competitors.xlsx` was last shared March 2026; a quarterly review is now due — refresh the tracker before relying on it for fresh claims.
 
 ## Purpose
 
@@ -36,7 +44,7 @@ Use sources in this order.
 
 The primary source of truth is `Competitors.xlsx`, last shared March 2026 in Microsoft Teams.
 
-Before doing any fresh research, check whether the competitor is already in the tracker and when it was last updated. If the entry is less than 90 days old, use it as the base and only flag what may have changed.
+Before doing any fresh research, check whether the competitor is already in the tracker and when it was last updated. If the entry is less than 90 days old, use it as the base and only flag what may have changed. (Note as of 2026-06-04: the tracker is past the 90-day mark and due a refresh.)
 
 ### Tier 1 — direct product observation
 
@@ -86,7 +94,7 @@ Any new entrant explicitly positioning around AI + family + mental load. This bu
 
 When researching a competitor, follow this sequence:
 
-1. **Identify the bucket** — which of the five categories above does this competitor primarily sit in?
+1. **Identify the bucket** — which of the six categories above does this competitor primarily sit in?
 2. **Profile the basics** — founding year, funding status, team size estimate, primary market (DACH, US, global), pricing model, primary user (individual vs. household), app platforms
 3. **Map the feature surface** — what does the product actually do? Be specific. Do not rely on marketing language.
 4. **Assess the positioning** — what problem do they claim to solve? What emotion do they market to? What does their homepage hero say?

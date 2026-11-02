@@ -1,4 +1,11 @@
+---
+name: product
+description: "familymind product design and documentation. Use when writing feature briefs or PRDs, designing AI agent and proactive-suggestion behavior, designing onboarding journeys and content, analyzing or clustering feedback, communicating the roadmap, or making product decisions from research. Grounded in the human coach framework, the Proactive Agent design, the 14-day onboarding, phase-based evolution, and famory. Do not use for marketing copy (use marketing), user test assets (use user-tests), or investor product narratives (use finance plus brand)."
+---
+
 # SKILL.md — familymind Product
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Mousa (CTO)
 
 ## Purpose
 

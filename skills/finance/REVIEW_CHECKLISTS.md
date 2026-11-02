@@ -22,23 +22,24 @@ Use for every finance-related asset.
 ### Accuracy check
 - [ ] Did I distinguish current cash from total funding secured?
 - [ ] Did I distinguish secured funding from target raise?
+- [ ] Did I distinguish secured funding from submitted (outstanding) grant applications?
 - [ ] Did I distinguish actual numbers from forecast numbers?
 - [ ] Did I distinguish current operating reality from normalized future business economics?
 - [ ] Did I avoid inventing CAC, CLV, MRR, ARR, runway months, margins, or break-even dates unless sourced?
 
 ### Wording check
 - [ ] Did I avoid calling the company profitable if that is not explicitly true?
-- [ ] Did I avoid calling the company fully break-even if only recurring license costs are covered?
+- [ ] Did I avoid calling the company fully break-even unless that is confirmed?
 - [ ] Did I avoid implying institutional funding has happened?
-- [ ] Did I avoid implying angels are on the cap table if they are not?
-- [ ] Did I avoid implying the founders are already drawing salaries?
+- [ ] Did I avoid implying anyone is on the cap table who is not?
+- [ ] Did I state founder salary status only as confirmed?
 - [ ] Did I use conservative, credible language?
 
 ### Context check
-- [ ] Did I note that the current lean operating structure is helped by the absence of salary payouts?
-- [ ] Did I frame revenue coverage correctly as license-cost coverage, not full operating profitability?
-- [ ] Did I keep the company founder-owned in wording unless updated otherwise?
-- [ ] Did I keep the cap table description consistent with founder ownership?
+- [ ] Did I state how salary status affects any efficiency claim?
+- [ ] Did I frame revenue coverage correctly, not as full operating profitability?
+- [ ] Did I describe ownership as confirmed in the live facts?
+- [ ] Did I keep the cap table description consistent with the live facts?
 
 ### Output quality check
 - [ ] Is the logic easy to follow?
@@ -51,23 +52,11 @@ Use for every finance-related asset.
 
 ## 2. Live familymind finance facts — must-check block
 
-Before finalizing any asset, confirm consistency with this block:
+Before finalizing any asset, confirm consistency with the **Tier 0 live finance facts block in `finance/SKILL.md`**, which is the single source of truth. Do not restate the numbers here — read them from the source so this checklist never drifts out of date.
 
-- Cap table is clean
-- No external investors on board yet
-- Only founders are shareholders
-- Funding secured so far:
-  - 15k EUR business angel
-  - 30k EUR governmental grants
-  - 15k EUR business angel
-  - total referenced secured funding: 60k EUR
-- Current cash: 12.5k EUR
-- Operating status:
-  - app revenues cover recurring monthly license costs
-  - no salary payouts so far
-  - stable runway, but do not equate this with full break-even
+In particular confirm: cap table status, total secured funding, current cash, operating/runway status, and the status of any outstanding grant applications (which must be treated as pipeline, not secured funding).
 
-If the asset contradicts any of these, fix it before sending.
+If the asset contradicts the Tier 0 block, fix it before sending.
 
 ---
 
@@ -76,13 +65,14 @@ If the asset contradicts any of these, fix it before sending.
 Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, due diligence summaries, fundraising memos.
 
 ### Must confirm
-- [ ] Founder-owned and clean cap table language is correct
+- [ ] Ownership and cap table language is correct
 - [ ] No institutional round is implied
 - [ ] Any funding reference distinguishes secured amount from cash on hand
-- [ ] Business angel money is not described as cap table participation unless explicitly updated
+- [ ] Submitted grant applications are not presented as secured funding
+- [ ] Early funding is not described as cap table participation unless confirmed
 - [ ] Current cash is described correctly
-- [ ] Revenue coverage is described as covering recurring license costs only
-- [ ] No salary payouts are acknowledged where relevant to efficiency claims
+- [ ] Revenue coverage is described only as far as confirmed
+- [ ] Salary status is acknowledged where relevant to efficiency claims
 - [ ] Any growth or efficiency claim is defensible
 - [ ] All numeric claims come from live context or the model
 
@@ -92,6 +82,7 @@ Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, d
 - venture-backed
 - fully funded
 - funded round completed
+- grant-funded / grant secured (until an award notice exists)
 - strong margins
 - scalable economics proven
 - recurring revenues cover the business
@@ -100,8 +91,7 @@ Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, d
 - capital-efficient
 - lean founder-led build
 - early monetization proof
-- revenues currently cover recurring software license costs
-- founder-owned with early external funding secured
+- non-dilutive grant funding (applications pending)
 - disciplined cost structure
 
 ---
@@ -113,6 +103,7 @@ Use for grant applications, project budgets, innovation funding documents, subsi
 ### Must confirm
 - [ ] Grant finance logic is separated from investor finance logic where needed
 - [ ] Requested funding, co-financing, and cash are not conflated
+- [ ] Submitted applications are described as outstanding, not as secured funding
 - [ ] Innovation and impact claims do not rely on unsourced commercial assumptions
 - [ ] Project costs and operating costs are clearly distinguished
 - [ ] TRL and scaling statements match the relevant grant source
@@ -136,7 +127,7 @@ Use for founder updates, internal planning notes, budget snapshots, strategy mem
 - [ ] Current cash is shown distinctly
 - [ ] Secured funding history is shown distinctly
 - [ ] Recurring revenue coverage is described accurately
-- [ ] Missing salary costs are acknowledged if talking about efficiency
+- [ ] Salary status is acknowledged if talking about efficiency
 - [ ] Model assumptions are not mistaken for actuals
 - [ ] Risks and unknowns are explicit
 
@@ -168,9 +159,11 @@ Use for fundraising decks, partner decks, strategy decks.
 
 Run this 30-second check before sending any finance output:
 - [ ] Did I confuse cash with funding secured?
-- [ ] Did I imply angels are equity holders already?
+- [ ] Did I confuse secured amounts with application amounts?
+- [ ] Did I present a submitted grant application as secured funding?
+- [ ] Did I imply anyone is an equity holder who is not?
 - [ ] Did I imply profitability?
-- [ ] Did I forget that no salaries are paid?
+- [ ] Did I state salary status correctly?
 - [ ] Did I use deck numbers instead of model numbers?
 - [ ] Did I overstate certainty?
 

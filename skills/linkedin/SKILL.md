@@ -1,4 +1,12 @@
+---
+name: linkedin
+description: "Rosa Di Donna's personal LinkedIn founder voice. Use whenever writing, editing, or reviewing a post for Rosa's personal LinkedIn profile: founder reflections, mental load and care work, the founder journey, AI and product thinking, gender equity, leadership and systems thinking. Source of truth for Rosa's founder voice, content themes, post structure, and the earned-CTA rule. Do not use for familymind company page posts (use marketing) or general content drafting (use content-creation)."
+---
+
 # SKILL.md — Rosa Di Donna LinkedIn Founder Profile Guardrail
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> **Source of truth:** This file is the single source of truth for Rosa's founder voice. `marketing/SKILL.md` and `content-creation/SKILL.md` defer here for anything about how Rosa sounds, what she posts about, and how her posts are structured. If those files disagree with this one on founder voice, this file wins.
 
 ## Purpose
 
@@ -95,9 +103,11 @@ These six themes reflect her real areas of authority and should rotate across he
 - 2–4 short paragraphs for most posts
 
 ### CTA
-- Feels earned by the content, not bolted on
+- Feels earned by the content, not bolted on. A founder post does not need a CTA in every case — include one only when the content has genuinely set it up.
 - Options: ask a genuine question, invite to DM, direct to waitlist, suggest following the company page, invite reflection
 - Do not end with a hollow generic question just for engagement
+
+> Note: this earned-CTA rule overrides the more general "every post should have a CTA" guidance in `marketing/SKILL.md`. For Rosa's personal profile, an unforced post with no CTA beats a bolted-on one.
 
 ### Length
 - Most posts: 150–300 words

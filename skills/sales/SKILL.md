@@ -1,4 +1,11 @@
+---
+name: sales
+description: "familymind B2B2C sales and partner outreach. Use when creating sales assets or communication: cold and warm outreach to HR, benefits, and DEI decision-makers, partnership pitches and one-pagers, follow-up sequences, objection handling, discovery-call prep, employer proposals, ambassador and angel outreach (the Speak out Loud track and Andrea Boeckle pilot), and grant or ecosystem partnership narratives. Consultative and mission-aligned. Do not use for B2C user-acquisition copy (use marketing) or investor finance answers (use finance)."
+---
+
 # SKILL.md — familymind Sales Assets & Templates Guardrail
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
 
 ## Purpose
 
@@ -42,7 +49,7 @@ The employer pitch connects three value levers:
 
 ### Active sales track: "Speak out Loud" ambassador-to-angel model
 
-familymind is running a structured campaign to turn mission-aligned professionals into business angels and public co-ambassadors. The first ambassador is **Andrea Böckle**, a confirmed business angel who has invested and is willing to publicly represent familymind.
+familymind is running a structured campaign to turn mission-aligned professionals into business angels and public co-ambassadors. The first ambassador is **Andrea Böckle**, who publicly represents familymind.
 
 **Target profile for this track:**
 - Coaches (family, career, or life coaches)
@@ -80,46 +87,9 @@ The following targets are the operational baseline for weekly sales outreach:
 
 Customer success emails in this context are personal, relationship-building messages aimed at identifying multipliers — people who can refer, recommend, or amplify familymind to their networks. These are not support emails.
 
-### Andrea Böckle pilot — detailed framework
+### Andrea Böckle partnership
 
-The collaboration with Andrea Böckle is structured as a 6–8 week pilot before any long-term commitment. The three collaboration models being tested are:
-
-1. **Expert / Content / Advisor** — Andrea provides input on features, co-creates content, and lends domain credibility (equal care, behavior change, work-family compatibility)
-2. **Distribution / Multiplication** — Andrea uses her network and audience to distribute familymind to qualified leads and employer contacts
-3. **Investor & Multiplicator** — Andrea invests and publicly represents familymind as an ambassador-angel
-
-The pilot offer is the **"30-Day Mental Load Shift"** — a structured program combining Andrea's coaching perspective with familymind's implementation layer.
-
-**Program structure (4 modules):**
-- Weekly live webinars or check-ins with Andrea
-- Start and end surveys
-- 60 days free use of familymind
-- Specialized AI agent configuration
-- Push notifications, email, and community channel support
-- Analytics and supervision
-- Best practices documentation
-
-**Pilot phases:**
-1. Alignment & Design
-2. Asset Creation & Launch Prep
-3. Market Test & Review
-
-**Key deliverables:** joint one-pager, 1–3 webinars, pilot offer concept, landing page, optional test cohort
-
-**Success metrics:** webinar sign-ups, qualified leads, waitlist applications, employer conversations, audience feedback quality
-
-**Explicitly out of scope for the pilot:**
-- Large corporate programs
-- Certification models
-- Insurance course development
-- Long-term exclusivity agreements
-- Full legal partnership structures
-
-**Role assignments:** Rosa (strategic lead), Ariane (offer translation), Mousa (product feasibility)
-
-**IP rule:** pre-existing IP stays with original owner; new co-created materials require explicit usage agreements before either party uses them independently.
-
-The pilot ends with a review meeting to decide: continue, expand, pause, or clean ending. Do not draft materials that imply a longer-term partnership before that review occurs.
+The Mental Load Shift runs with Andrea Böckle (Work Futurists). Partnership terms are kept privately: ask Rosa. Do not draft materials that imply terms she has not confirmed.
 
 ### Current stage
 

@@ -1,4 +1,12 @@
+---
+name: marketing
+description: "familymind company and brand marketing across channels. Use when creating, adapting, reviewing, or planning familymind marketing assets: LinkedIn company page posts, Instagram, newsletters, blog and SEO, website and landing pages, email sequences, campaigns, webinars, value propositions, hooks, content plans, and messaging frameworks. Covers brand voice, audiences, channel guardrails, and the six messaging pillars. For Rosa's personal LinkedIn founder posts use the linkedin skill; for hands-on drafting, formatting, and repurposing use content-creation; for investor or finance copy use finance."
+---
+
 # familymind marketing skill
+
+> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> **Founder voice:** For anything in Rosa's personal founder voice, defer to `linkedin/SKILL.md` (the source of truth). This file owns brand/company voice and the company page.
 
 ## Purpose
 
@@ -14,8 +22,9 @@ All outputs should feel useful, sharp, warm, credible, socially aware, and disti
 
 ## Use this skill for
 
-- LinkedIn founder posts
+- LinkedIn founder posts (apply `linkedin/SKILL.md` for Rosa's voice)
 - LinkedIn company page posts
+- Instagram posts and reels
 - newsletters
 - blog posts
 - website copy
@@ -141,21 +150,11 @@ If data or external claims are used, prefer including exact figures and sources 
 
 ---
 
-## Founder voice rules
+## Founder voice
 
-When writing in founder voice, reflect these traits:
-- authentic, not performative
-- emotionally grounded
-- strong on mission and insight
-- combines personal story with broader relevance
-- able to connect motherhood, leadership, systems thinking, and product building
-- values real usefulness over polished impressions
-- prefers substance over vanity content
-- likes clear insight and reflection, not just storytelling for its own sake
+When writing in Rosa's personal founder voice, `linkedin/SKILL.md` is the source of truth — load it for the full voice, themes, post structure, and CTA rules. Do not restate or paraphrase those rules here; they are maintained in one place to prevent drift.
 
-Do not write founder posts as if they are generic inspirational founder content. Do not flatten the founder into "female founder overcoming challenges." Do not make motherhood the only lens.
-
-Instead, integrate family reality, leadership, systems, and social impact intelligently.
+The short version, for context only: Rosa's voice is authentic not performative, emotionally grounded, strong on insight, and integrates family reality, leadership, systems thinking, and social impact. Do not flatten the founder into "female founder overcoming challenges," and do not make motherhood the only lens.
 
 ---
 
@@ -181,18 +180,9 @@ Use these pillars repeatedly across assets, but with variation.
 
 ### LinkedIn founder content
 
-Purpose: build trust, grow reach, create resonance, support user and investor interest.
+Rosa's personal founder content is governed by `linkedin/SKILL.md`. Load that file for voice, content themes, hook/body/CTA structure, and output format. Do not duplicate those rules here.
 
-Rules:
-- blend personal storytelling with professional or societal insight
-- every post should have a CTA, either direct or subtle
-- not every post needs to mention familymind; familymind should appear when naturally relevant
-- event recap posts usually underperform unless there is a concrete outcome or insight
-- avoid polls and carousels unless explicitly requested
-- make posts useful, relatable, and conversation-worthy
-- do not end with a flat generic question just for engagement bait
-
-Common CTAs: comment with experience, DM for partnership or conversation, join waitlist or beta, follow the company page, reflect on a shared issue, download or try the product when appropriate.
+The only company-side note: founder posts do not need to mention familymind every time; familymind should appear when it is naturally relevant, and event recaps usually underperform unless there is a concrete outcome or insight.
 
 ### LinkedIn company page
 
@@ -263,7 +253,7 @@ Rules:
 
 ## Touchpoint strategy
 
-Converting a lead into an active user requires between 7 and 28 touchpoints. As of the current baseline, familymind is delivering approximately 0.5 touchpoints per lead. This is the single most important strategic constraint on the marketing approach.
+Converting a lead into an active user requires between 7 and 28 touchpoints. As of the baseline measured in early 2026, familymind was delivering approximately 0.5 touchpoints per lead. (Re-check this figure against current channel activity before using it in planning or external materials.) This has been the single most important strategic constraint on the marketing approach.
 
 This means the primary challenge is not message quality — it is contact frequency and multi-channel presence. A prospect who sees one great LinkedIn post and nothing else for two weeks will not convert. Content plans should be evaluated through this lens: how many touchpoints does this create for a lead across what period?
 
