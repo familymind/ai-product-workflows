@@ -6,7 +6,7 @@ This file provides reusable structures for finance-related assets.
 
 Use these templates to keep familymind finance communication consistent, credible, lean, fast to produce, and aligned with the finance guardrail.
 
-Important: templates do not replace the source hierarchy in `SKILL.md`. All numbers must still be checked against the **Tier 0 live finance facts block in `finance/SKILL.md`** and the financial model. The figures shown in the templates below are illustrative of the current state; if Tier 0 has been updated, the Tier 0 numbers win. Note the current fundraising direction is non-dilutive grants (applications outstanding) — do not insert public/equity-round language.
+Important: every `[bracket]` must be filled from the live facts described in `finance/SKILL.md`. If a fact is missing, leave the bracket visible. Delete any sentence the live facts don't support.
 
 ---
 
@@ -16,7 +16,7 @@ Use for quick internal summaries, short investor replies, application forms, par
 
 **Template:**
 
-familymind is currently a founder-owned company with a clean cap table and no external investors on board. To date, we have secured 60k EUR in early external funding through 2 business angel contributions and governmental grants. Current cash stands at 12.5k EUR. We are operating with a lean structure, and current app revenues cover recurring monthly license costs. No founder salaries have been paid so far, so we describe this as capital-efficient early-stage stability rather than full operating break-even.
+familymind is [ownership status]. To date, we have secured [secured funding] in early external funding through [funding sources]. Current cash stands at [current cash]. We are operating with a lean structure, and [what revenue currently covers]. [Salary status], so we describe this as [conservative framing].
 
 ---
 
@@ -26,7 +26,7 @@ Use for investor emails, intros, meeting prep, form fields asking for current fi
 
 **Template:**
 
-familymind is still founder-owned and has not yet completed an institutional round. So far, we have secured 60k EUR in early external funding through business angels and governmental grants. We are currently operating lean, with app revenues covering recurring license costs, while founder salaries have not yet been paid. Our current funding focus is non-dilutive grants, with applications submitted and decisions pending.
+familymind is [ownership status]. So far, we have secured [secured funding] through [funding sources]. We are currently operating lean, with [what revenue currently covers]. Our current funding focus is [current fundraising direction and status].
 
 ---
 
@@ -35,10 +35,7 @@ familymind is still founder-owned and has not yet completed an institutional rou
 Use for DD conversations, investor questions, application forms.
 
 **Template:**
-Our cap table is currently clean. Only the founders are shareholders, and no external investors are on the cap table at this stage.
-
-**Slightly expanded version:**
-Our cap table is currently clean and fully founder-held. We have secured early funding through business angels and grants, but no external investor has entered the cap table yet.
+[Cap table status: who holds equity today.]
 
 ---
 
@@ -47,10 +44,10 @@ Our cap table is currently clean and fully founder-held. We have secured early f
 Use for investor conversations, internal snapshots, due diligence summaries.
 
 **Template:**
-Current cash on hand is 12.5k EUR.
+Current cash on hand is [current cash].
 
 **Expanded version:**
-Current cash on hand is 12.5k EUR. In parallel, the company has secured a total of 60k EUR in early external funding through 2 business angel contributions and governmental grants.
+Current cash on hand is [current cash]. In parallel, the company has secured a total of [secured funding] through [funding sources].
 
 ---
 
@@ -59,7 +56,7 @@ Current cash on hand is 12.5k EUR. In parallel, the company has secured a total 
 Use for investor FAQs, finance notes, funding applications, operating updates.
 
 **Template:**
-We are currently operating on a stable runway. App revenues cover our recurring monthly software license costs. At the same time, no founder salaries have been paid so far, so we frame this as a lean and capital-efficient operating setup rather than full company break-even.
+[Runway status.] [What revenue currently covers.] [Salary status], so we frame this as a lean and capital-efficient operating setup rather than full company break-even.
 
 ---
 
@@ -92,7 +89,7 @@ The next capital would primarily go into product maturity, AI optimization, grow
 Use for investor materials, grant narratives, strategy memos.
 
 **Template:**
-familymind is being built with a lean operating model. The current structure allows us to move efficiently, validate the product in market, and keep fixed costs disciplined while we build toward a more normalized salary-bearing setup over time.
+familymind is being built with a lean operating model. The current structure allows us to move efficiently, validate the product in market, and keep fixed costs disciplined.
 
 ---
 
@@ -101,7 +98,7 @@ familymind is being built with a lean operating model. The current structure all
 Use for cold outreach, warm follow-up, meeting follow-up.
 
 **Template:**
-From a financing perspective, we have stayed deliberately lean. familymind is still fully founder-owned, with a clean cap table and 60k EUR in early external funding from business angels and governmental grants. Current app revenues cover recurring license costs, and we have not yet paid founder salaries, which gives us a very disciplined early-stage operating profile.
+From a financing perspective, we have stayed deliberately lean. familymind is [ownership status], with [secured funding] in early external funding from [funding sources]. [What revenue currently covers.] [Salary status, if relevant.]
 
 ---
 
@@ -110,14 +107,14 @@ From a financing perspective, we have stayed deliberately lean. familymind is st
 Use for data room intro, investor follow-up, due diligence doc.
 
 **Template:**
-- Cap table: clean, founder-only
-- External investors on cap table: none yet
-- Funding secured to date: 60k EUR
-- Cash on hand: 12.5k EUR
-- Revenue status: app revenues cover recurring monthly license costs
-- Salary status: no founder salaries paid so far
-- Funding pipeline: non-dilutive grant applications submitted (outstanding, not secured)
-- Interpretation: lean and capital-efficient, but not yet reflective of a fully normalized operating cost base
+- Cap table: [status]
+- External investors on cap table: [status]
+- Funding secured to date: [secured funding]
+- Cash on hand: [current cash]
+- Revenue status: [what revenue currently covers]
+- Salary status: [status]
+- Funding pipeline: [applications, marked outstanding or awarded]
+- Interpretation: [conservative framing]
 
 ---
 
@@ -126,7 +123,7 @@ Use for data room intro, investor follow-up, due diligence doc.
 Use for grant applications, innovation funding forms, public sector submissions.
 
 **Template:**
-familymind is being developed with a lean and disciplined financing approach. Early external funding from grants and private supporters has enabled product progress while keeping the company founder-led and focused. Current revenues contribute to recurring operating costs, while the next stage of funding is intended to support structured scaling, product refinement, and broader implementation.
+familymind is being developed with a lean and disciplined financing approach. Early external funding from [funding sources] has enabled product progress while keeping the company founder-led and focused. The next stage of funding is intended to support structured scaling, product refinement, and broader implementation.
 
 ---
 
@@ -142,7 +139,7 @@ Current cash — [insert current cash]
 Funding secured to date — [insert total secured funding]
 - [short split if needed]
 
-Cap table — [founder-only / updated status]
+Cap table — [current status]
 Revenue status — [what revenues currently cover]
 Cost status — [main recurring costs / any changes]
 Salary status — [founder salaries paid or not paid]
@@ -161,58 +158,55 @@ Next finance priorities — [top 3 priorities]
 Subscription-based B2C with B2B2C expansion path
 
 *Current status*
-- Founder-owned, clean cap table
-- 60k EUR secured in early external funding
-- 12.5k EUR current cash
-- App revenues cover recurring license costs
-
-*Note:* No founder salaries paid so far
+- [Ownership status]
+- [Secured funding]
+- [Current cash]
+- [What revenue currently covers]
 
 **Option B — slightly fuller**
 
 *Financing status*
-- Founder-owned
-- No external investors on cap table yet
-- 60k EUR secured via business angels and governmental grants
-- 12.5k EUR cash on hand
+- [Ownership status]
+- [Secured funding and sources]
+- [Current cash]
 
 *Operating efficiency*
-- Recurring license costs covered by app revenues
+- [What revenue currently covers]
 - Lean cost base
-- No founder salaries paid so far
+- [Salary status]
 
-*Next step:* Non-dilutive grant funding (applications pending) to accelerate product maturity, AI quality, and scalable go-to-market
+*Next step:* [Current fundraising direction]
 
 ---
 
 ## 14. Answer template — "Are you profitable?"
 
-Not yet in the full sense. At the moment, app revenues cover our recurring monthly license costs, but we have not yet paid founder salaries. So we describe the business as capital-efficient and lean, rather than fully profitable.
+[Only from confirmed facts: what revenue covers today, and what it doesn't.] We describe the business as capital-efficient and lean, rather than fully profitable.
 
 ---
 
 ## 15. Answer template — "How much have you raised?"
 
-So far, we have secured 60k EUR in early external funding through 2 business angel contributions and governmental grants. Our cap table remains fully founder-held. (Submitted grant applications are separate and not counted here until awarded.)
+So far, we have secured [secured funding] through [funding sources]. (Submitted grant applications are separate and not counted here until awarded.)
 
 ---
 
 ## 16. Answer template — "What is your burn?"
 
-We are currently running a very lean structure. [Insert exact burn only if confirmed from the model.] Importantly, current app revenues cover recurring license costs, but founder salaries have not yet been paid, so any burn interpretation needs to be viewed in that context.
+We are currently running a very lean structure. [Insert exact burn only if confirmed from the model.] [State how salary status affects the interpretation.]
 
 ---
 
 ## 17. Answer template — "What makes the business capital-efficient?"
 
-The business is capital-efficient because we have validated early monetization, kept the cap table clean, maintained a lean operating setup, and limited fixed cost exposure while building the product. Current app revenues already cover recurring license costs, although founder salaries have not yet been introduced into the cost base.
+The business is capital-efficient because [confirmed reasons, for example validated early monetization and a lean operating setup].
 
 ---
 
 ## 18. Usage rule for all templates
 
 Before using any template:
-- confirm the numbers are still current against the Tier 0 live finance facts in `finance/SKILL.md`
+- confirm every bracket comes from the live facts described in `finance/SKILL.md`
 - confirm the wording matches the context
 - confirm no stronger claim is being made than the facts support
 - confirm submitted grant applications are never presented as secured funding

@@ -19,12 +19,12 @@ The first comeback draft (2026-07-07) was rejected as "not my voice" — punchy 
 - **Motherhood = ambient logistics in one clause, never the emotional centerpiece:** "So, ich habe währenddessen kurz gewickelt" → continues. Don't stage messy-mom moments.
 - **Excitement = generosity and offers, not adjectives:** "alles was du willst, kriege ich dir jemanden." Every pitch has a reciprocal ask or offer — never pure-broadcast; end posts with an offer or genuine ask, not a hollow engagement question.
 - **Disagrees by validating first:** "I know, I know, I'm with you. But…" Corrects stats from lived experience ("Ich habe beide Umzüge gemacht. Schwanger. Unterschätzt es nicht.").
-- **Never:** self-pity (depression stated as fact → "familymind war meine Therapie"), apologizing for kids in calls, buzzwords without a concrete example, victim-framing mothers ("fathers want to contribute"; "das ist auch okay").
-- **Vulnerability calibrated by relationship, not language:** the stranger version of the founding story omits the manager conflict + Anpassungsstörung; the warm version includes them. For public posts default to the middle: honest, no therapy details unless she opts in.
+- **Never:** self-pity, apologizing for kids in calls, buzzwords without a concrete example, victim-framing mothers ("fathers want to contribute"; "das ist auch okay").
+- **Vulnerability calibrated by relationship, not language:** the stranger version of the founding story is shorter than the warm version. For public posts default to the middle: honest, with personal details only if she opts in.
 
 ## Founding story beats (her telling)
 
-7 years Microsoft, ran Teams through Corona ("den halben DAX auf Remote Work umgemünzt") → became a mom → manager change, "gar nicht auf Vereinbarkeit gepolt" → "damit habe ich mich ins Aus geschossen" → left; "familymind war meine Therapie" → Townhalls: "wann kann ich Copilot zu Hause nutzen?" "Rosa, nein. Familien zahlen nicht." → "okay, ich bin diejenige, die KI in Familien bringt" → 2-week prompt library ("was mache ich jetzt?" → "es ist wirklich eine App") → YC met Mousa → beta Dec 24 → paywall test: Failed. → big, big sprint, ~85% new app in 6 weeks → paywall win, all organic.
+7 years Microsoft, ran Teams through Corona ("den halben DAX auf Remote Work umgemünzt") → became a mom → left → Townhalls: "wann kann ich Copilot zu Hause nutzen?" "Rosa, nein. Familien zahlen nicht." → "okay, ich bin diejenige, die KI in Familien bringt" → 2-week prompt library ("was mache ich jetzt?" → "es ist wirklich eine App") → YC met Mousa → beta Dec 24 → paywall test: Failed. → big, big sprint, ~85% new app in 6 weeks → paywall win, all organic.
 
 ## Anti-slop rules — ALL brand channels (company LinkedIn, IG, FB, newsletter, blog, Substack)
 

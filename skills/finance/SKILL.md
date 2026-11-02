@@ -1,12 +1,12 @@
 ---
 name: finance
-description: "familymind finance guardrail and source of truth for live finance facts. Use for any finance-related output: investor answers and FAQs, fundraising framing, runway and cash position, burn and efficiency, cap table and ownership, grant finance narratives, business and revenue model summaries, deck finance slides, and due diligence prep. Enforces a strict source hierarchy and conservative wording, and distinguishes secured funding from submitted grant applications. Use whenever numbers about funding, cash, or revenue appear, even inside a marketing or sales asset."
+description: "familymind finance guardrail. Use for any finance-related output: investor answers and FAQs, fundraising framing, runway and cash position, burn and efficiency, cap table and ownership, grant finance narratives, business and revenue model summaries, deck finance slides, and due diligence prep. Enforces a strict source hierarchy and conservative wording, and distinguishes secured funding from submitted grant applications. Use whenever numbers about funding, cash, or revenue appear, even inside a marketing or sales asset."
 ---
 
 # SKILL.md — familymind Finance Assets & Templates Guardrail
 
-> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
-> **Single source of truth for live finance facts.** The README must not restate these numbers — it should point here.
+> **Owner:** Rosa (CEO)
+> **This file holds the method only.** Live finance facts are kept privately and must never be written into this project.
 
 ## Purpose
 
@@ -41,173 +41,45 @@ Do not use this skill for general marketing copy unless finance claims are invol
 
 ---
 
+## Live finance facts
+
+Before any finance output, get the current facts from Rosa or from her private finance page:
+- ownership and cap table
+- funding secured, split by source
+- current cash
+- runway and what revenue currently covers
+- founder salary status
+- grant applications and their status
+- current fundraising direction
+
+If a fact is not provided, leave a visible placeholder such as `[current cash]` and say what is missing. Never fill it from memory, an old draft, or this file's history. Never add these facts to this project.
+
+---
+
 ## Source hierarchy
 
 Always use sources in this order.
 
-### Tier 0 — live manual finance context
+1. **Live facts from Rosa**, as above
+2. **The current financial model**, for forecast logic, revenue and cost assumptions, and scenarios
+3. **Legal documents**, for company structure, ownership and governance. They override all other files on these topics
+4. **Investor deck and investor FAQ**, for narrative. They may simplify finance but may not contradict the model or live facts
+5. **Grant documents**, for grant-specific framing. Do not mix grant logic into operating model language unless clearly linked
+6. **Historical documents**, as background only. Do not use old numbers if newer sources exist
 
-This is the most current source of truth unless explicitly updated later.
-
-**Current finance facts for familymind (as of 2026-06-04):**
-- Cap table is clean
-- No external investors on board yet — only the founders hold equity via their three holding entities:
-  - mind the fam UG (Rosa Di Donna's holding)
-  - AVogel Holding UG (Ariane Vogel's holding)
-  - MA Holding UG (Mousa Abdelmaksoud's holding)
-- The operating company is familymind GmbH
-- Funding secured so far — 60k EUR total:
-  - 2 business angels at 15k EUR each = 30k EUR
-  - 30k EUR from governmental grants
-  - (these two lines together are the 60k EUR of secured external funding referenced throughout this skill)
-- Current cash position: 12.5k EUR
-- Runway / operating status:
-  - company is currently on a stable runway
-  - app revenues currently cover recurring monthly license costs
-  - no founder salaries or salary payouts have been paid so far
-
-**Crowdfunding history:**
-- An Indiegogo crowdfunding campaign was run and concluded in March 2026
-- The campaign was wrapped and backers were refunded
-- Do not reference familymind as currently crowdfunding
-- Do not imply the Indiegogo campaign was a failure — frame it as an early validation step
-
-**Current fundraising direction (as of 2026-06-04):**
-- familymind is **not** running a public or crowd round. Do not describe any public/website pooling round as active.
-- The current path is **non-dilutive grant funding**. This keeps the cap table clean.
-- Three grant applications have been **submitted; results are outstanding** (no award notices yet):
-  - **Digitalbonus+ Bayern** — 60k EUR, 50% grant quota (implied grant up to ~30k EUR, with ~30k EUR own co-financing)
-  - **EXIST FTA / EKI** — 240k EUR, 75% grant quota (implied grant up to ~180k EUR)
-  - **WomenHorizon Call** — 55k EUR, 100% grant quota (implied grant up to ~55k EUR)
-- **Applied ≠ secured.** None of these three applications may be counted as funding, runway, or traction until an award notice is received. Treat them as pipeline only.
-- **Do not confuse the Digitalbonus+ 60k application with the 60k EUR already secured.** The secured 60k is past funding (2 angels + governmental grant). The Digitalbonus+ 60k is an outstanding application volume. They are unrelated amounts that happen to share a number.
-- Grant-quota note: the quota is the share of eligible project costs covered by the grant; the remainder is founder co-financing. Exact award amounts depend on approved eligible costs, so label any euro figure derived from a quota as approximate.
-
-**Interpretation rules for this live context:**
-- Do not describe familymind as fully venture-backed
-- Do not imply an institutional round has already happened
-- Do not imply payroll-supported growth unless explicitly stated
-- Do not present submitted grant applications as secured funding
-- When discussing burn, runway, or efficiency, note that current stability is helped by the absence of salary payouts
-- When discussing traction efficiency, distinguish clearly between software/license cost coverage and full operating break-even
-
-If future user instructions contradict this section, the newer user instruction wins.
-
----
-
-### Tier 1 — primary numeric source of truth
-
-Use this workbook as the master source for finance logic and numbers whenever available:
-- `VC Lab Familymind Financial model 1.xlsx`
-
-Use this file first for forecast logic, revenue assumptions, cost assumptions, grant treatment, summary views, monthly income statement references, scenario logic, operating planning, runway interpretation, recurring revenue logic, expense structure, and depreciation logic.
-
-If numbers in decks, FAQs, grant texts, or legacy docs differ from the workbook, the workbook wins unless the user explicitly says otherwise.
-
----
-
-### Tier 2 — investor-facing interpretation layer
-
-Use these files to shape finance narrative, but not to override the model:
-- `familymind AI_Investor_Read_Deck.pdf`
-- `Investor_FAQ_update 20260218.pdf`
-
-Use for investor wording, framing of the problem and opportunity, business model narrative, how to explain traction, pricing and packaging explanation, capital raise story, use-of-funds language, and moat and market narrative where finance intersects with strategy.
-
-Rule: these files may simplify finance. They may not contradict the financial model or live finance context.
-
----
-
-### Tier 3 — legal and ownership structure
-
-Use these files for legal accuracy around company structure and founder ownership:
-- `2043_B_2025.pdf`
-- `2042_B_2025.pdf` (only when holding-structure detail matters)
-
-Use for legal entity references, founding structure, registered capital, shareholder allocation among founder entities, governance thresholds, and transfer and approval rules if legally relevant.
-
-Rule: legal documents override all other files on company structure and ownership mechanics.
-
----
-
-### Tier 4 — grant and public funding context
-
-Use this file for funding-application and public-innovation framing:
-- `IGP_Call5_paper_draft_incl. Masterclass comms.docx`
-
-Use for grant budgets, co-financing logic, innovation funding wording, economic and labor-market impact framing, project-based finance narrative, and TRL and evaluation-linked funding wording.
-
-Rule: grant logic should not automatically be mixed into operating model language unless clearly linked. Note that the active grant applications (Digitalbonus+ Bayern, EXIST FTA/EKI, WomenHorizon) are tracked in the Tier 0 live context above; this file is for framing and methodology, not for the current application status.
-
----
-
-### Tier 5 — historical and legacy context
-
-Use only as background or to understand how older materials evolved:
-- `Ideenpapier_familymind_FINAL.pdf`
-
-Use for historical assumptions, earlier pricing logic, legacy cost planning, and legacy market and business-case logic.
-
-Rule: treat as archival context. Do not use old numbers from this file if newer sources exist.
-
----
-
-### Legal and ownership note
-
-The operating company is **familymind GmbH**. Equity is held via three founder holding entities: mind the fam UG, AVogel Holding UG, and MA Holding UG. Business angels who have provided funding have not yet entered the cap table as equity holders. Convertible loan / SAFE structures are being researched as a potential instrument for incoming angels to convert into equity at a future round trigger. Note: the current near-term funding focus is non-dilutive grants (see Tier 0), not an equity round.
-
-### Optional supporting commercial context
-
-Use only when finance work touches positioning or employer ROI claims:
-- `FamilyAI Messaging Playbook_FINAL - 9.4.25.pdf`
-
-Use for employer ROI wording, benefit framing, objection handling, conversion messaging tied to economic value, and commercial language consistency.
-
-Rule: messaging support only. Not a finance source of truth.
-
----
-
-## Core finance truths to preserve
-
-These are stable framing principles unless the user updates them.
-
-### Ownership and funding status
-- familymind is founder-owned
-- no external investors are on the cap table yet
-- early external funding has been secured (60k EUR), but there has not been an institutional round
-- current near-term funding strategy is non-dilutive grants (applications outstanding, not secured)
-- avoid language that suggests a priced round has been completed unless explicitly confirmed
-
-### Cash and runway
-- current cash is 12.5k EUR
-- the company is operating lean
-- app revenues currently cover recurring license costs
-- this does not equal full company break-even
-- current stability is materially influenced by the absence of salary payouts
-
-### Revenue and cost framing
-- recurring license costs are covered by app revenues
-- no salary payouts means labor economics must not be presented as normalized
-- when discussing sustainability, clearly separate: software cost coverage / operational stability / full break-even / scalable salary-bearing business model
-
-### Team compensation
-- no founder salaries or salary payouts so far
-- never imply that the founders are already drawing market salaries
-- never imply current margins reflect a fully loaded team cost structure unless specifically modeled
+If numbers differ between sources, the higher source wins unless Rosa says otherwise.
 
 ---
 
 ## Wording rules
 
 ### Preferred wording
-Use language like:
+Use language like the following, only where the live facts support it:
 - founder-owned
 - lean operating model
 - capital efficient
 - early external funding secured
 - non-dilutive grant funding (applications pending)
-- stable short-term runway
-- revenues currently covering recurring software license costs
 - low-burn structure
 - founder-led build phase
 - disciplined cost base
@@ -228,18 +100,20 @@ Do not say:
 
 Only use these if explicitly true and confirmed by the user or current model: ARR, MRR, CAC, CLV, runway in months, burn multiple, break-even point, gross margin, contribution margin, EBITDA or profit language. If using any of these, source them from the financial model or clearly state they are estimates.
 
+Do not reference familymind as currently crowdfunding, and frame the earlier crowdfunding campaign as an early validation step.
+
 ---
 
 ## Conflict-resolution rules
 
 When sources disagree, resolve in this order:
 1. newest direct user message
-2. live manual finance context in this skill
-3. financial model workbook
+2. live facts from Rosa
+3. financial model
 4. legal documents for ownership and structure
 5. investor deck and investor FAQ
 6. grant documents for grant-specific context
-7. legacy docs
+7. historical documents
 
 If uncertainty remains: state the uncertainty clearly, do not invent precision, use the most conservative wording possible.
 
@@ -257,7 +131,7 @@ When generating finance outputs:
 - distinguish operating cost coverage from company-wide profitability
 - distinguish founder effort from salary expense
 
-When presenting numbers: use EUR unless the user requests otherwise, keep formatting consistent, use numerals not spelled-out numbers, round only when rounding does not distort meaning, if the number is approximate, label it as approximate.
+When presenting numbers: use EUR unless the user requests otherwise, keep formatting consistent, use numerals not spelled-out numbers, round only when rounding does not distort meaning, if the number is approximate, label it as approximate. Label any euro figure derived from a grant quota as approximate.
 
 ---
 
@@ -265,31 +139,15 @@ When presenting numbers: use EUR unless the user requests otherwise, keep format
 
 **Secured vs available** — secured funding total is not the same as current cash on hand.
 
-**Secured vs applied** — the 60k EUR secured funding is not the same as the grant applications submitted (Digitalbonus+ Bayern, EXIST FTA/EKI, WomenHorizon). Applications are pipeline, not funding.
+**Secured vs applied** — secured funding is not the same as grant applications. Applications are pipeline, not funding, until an award notice is received. Watch for amounts that happen to match.
 
-**Revenue coverage vs profitability** — revenues covering recurring monthly license costs is not the same as company break-even.
+**Revenue coverage vs profitability** — revenue covering some costs is not the same as company break-even.
 
-**Founder-owned vs investor-backed** — business angels may have provided funding, but if they are not on the cap table, do not describe them as equity investors on board.
+**Founder-owned vs investor-backed** — do not describe anyone as an equity investor unless they are on the cap table.
 
-**Live operating reality vs model** — live operating reality may be leaner than the normalized model because no salaries are currently being paid.
+**Live operating reality vs model** — keep the two apart, and state how salary status affects any efficiency claim.
 
 **Strategic narrative vs legal fact** — investor storytelling may simplify the company story. Legal docs determine the formal truth.
-
----
-
-## Standard company finance description
-
-Use this as a baseline summary unless the user asks for a different style:
-
-familymind is currently a founder-owned company with a clean cap table and no external investors on board. The business has secured 60k EUR in early external funding through 2 business angel contributions (15k EUR each) and governmental grants. Current cash stands at 12.5k EUR. The company is operating with a lean structure, and current app revenues cover recurring monthly license costs. However, no founder salaries have been paid so far, so this should be framed as capital-efficient early-stage stability rather than full operating break-even. The near-term funding focus is non-dilutive grants, with applications currently submitted and awaiting decision.
-
----
-
-## Standard fundraising description
-
-Use when the user needs concise fundraising framing:
-
-familymind is founder-owned, capital-efficient, and early in its financing journey. We have secured 60k EUR in early non-institutional funding through business angels and governmental grants, while keeping the cap table clean and fully with the founders. Current app revenues cover recurring license costs, and the company is being built lean without founder salary payouts so far. Rather than a public or equity round, the current focus is non-dilutive grant funding, with applications submitted to Digitalbonus+ Bayern, EXIST FTA/EKI, and the WomenHorizon Call — results pending and not yet counted as secured.
 
 ---
 
@@ -297,11 +155,11 @@ familymind is founder-owned, capital-efficient, and early in its financing journ
 
 Internally apply this check before finalizing any finance-related output:
 - Did I confuse secured funding with available cash?
-- Did I confuse the 60k secured with the 60k Digitalbonus+ application?
+- Did I confuse secured amounts with application amounts?
 - Did I present a submitted grant application as secured funding?
 - Did I imply equity investors are on the cap table when they are not?
-- Did I imply profitability when only license-cost coverage is true?
-- Did I ignore that no salaries are currently paid?
+- Did I imply profitability the facts don't support?
+- Did I state salary status correctly?
 - Did I use deck numbers that should have come from the model?
 - Did I overstate certainty on projections or assumptions?
 
@@ -315,7 +173,7 @@ If yes, correct before finalizing.
 
 **When writing grant finance sections:** emphasize project economics, leverage, labor-market relevance, and structured funding logic. Do not blindly reuse investor language.
 
-**When writing internal summaries:** separate actual current state from target state, label assumptions clearly, note where salary normalization is absent.
+**When writing internal summaries:** separate actual current state from target state, label assumptions clearly.
 
 **When writing pitch deck finance slides:** keep numbers minimal, credible, and sourced from the latest model. Avoid clutter and unsupported precision.
 
@@ -323,36 +181,10 @@ If yes, correct before finalizing.
 
 ## Missing-data rule
 
-If a requested finance output depends on data not present in the live context, the financial model, or the uploaded legal and investor files — do not invent it. Instead: state what is known, state what is missing, give a conservative partial answer.
-
----
-
-## File pack linked to this skill
-
-**Primary**
-- `VC Lab Familymind Financial model 1.xlsx`
-
-**Investor interpretation**
-- `familymind AI_Investor_Read_Deck.pdf`
-- `Investor_FAQ_update 20260218.pdf`
-
-**Legal**
-- `2043_B_2025.pdf`
-- `2042_B_2025.pdf` if needed
-
-**Grant / public funding**
-- `IGP_Call5_paper_draft_incl. Masterclass comms.docx`
-
-**Historical context**
-- `Ideenpapier_familymind_FINAL.pdf`
-
-**Optional commercial support**
-- `FamilyAI Messaging Playbook_FINAL - 9.4.25.pdf`
+If a requested finance output depends on data you were not given, do not invent it. Instead: state what is known, state what is missing, give a conservative partial answer.
 
 ---
 
 ## Final rule
 
 When in doubt, be accurate, conservative, and explicit.
-
-familymind's finance story is strongest when presented as: founder-owned, lean, capital-efficient, early but real, monetizing, disciplined, not overstated.
