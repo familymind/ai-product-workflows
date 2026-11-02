@@ -5,7 +5,7 @@ description: "Execution layer for drafting and finalizing familymind content. Us
 
 # SKILL.md — familymind Content Creation Guardrail
 
-> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> **Last reviewed:** 2026-10-10 · **Owner:** Rosa (CEO)
 > **Founder voice:** For Rosa's personal founder voice and post structure, defer to `linkedin/SKILL.md` (the source of truth). This file owns execution mechanics (drafting, formatting, repurposing), not founder voice.
 
 ## Purpose
@@ -46,6 +46,7 @@ Before drafting, identify:
 5. **Length** — short / medium / long?
 6. **Language** — German, English, or bilingual?
 7. **CTA** — what action is expected?
+8. **Product anchor** — which thing we deliver does this lead to? (an app or web-app feature or use case, Premium via web checkout, The Mental Load Shift, the Mental Load Test, the printables; see "Rule 1" in `marketing/SKILL.md`). No anchor, no draft.
 
 If any of these are unclear, infer from context and state your assumptions at the top of the draft.
 
@@ -56,6 +57,10 @@ If any of these are unclear, infer from context and state your assumptions at th
 ### Start with the reader, not the product
 
 Every piece of content should open from the reader's world: their problem, their reality, their question. The product appears when it is earned.
+
+**Open in the reader's words, not ours: hook in chore vocabulary, convert in mental load.** Paid search in Germany (Apple Search Ads, Jul–Aug 2026, 20 installs — directional) found zero searches for mental load, fairness, Vereinbarkeit or Aufgabenverteilung. Families type **kalender, planer, liste, organizer, haushalt, essen, einkauf**. So open on the concrete object they already have a word for — the calendar, the week plan, the shopping list, the household — name the mental load in the middle, and close on fairness and the quiz. "Wer trägt den Familienkalender?" before "mental load", never the reverse.
+
+This is a rule about *sequence*, not about dropping the wedge. It is strictest in anything meant to be found by search — blog titles, ads, App Store copy, landing pages. In content people already follow us for, the wedge can lead. Family-framed language ("familienplaner", "kalender familie") outperformed generic productivity language ("aufgabenliste", "to-do") by roughly 2×; never reach for the generic-productivity register. Full readout and the DE keyword list: `fm-social-accounts/docs/15-paid-search-demand-signals.md`; strategic framing lives in `marketing/SKILL.md` under "Demand vocabulary".
 
 ### One post, one job
 
@@ -122,6 +127,7 @@ When producing bilingual content:
 - Keep brand name as "familymind" in both languages
 - Messaging pillars translate directly; style and phrasing require adaptation
 - Deliver both versions in the same output, clearly labeled
+- In German, use the compound noun people actually type — familienkalender, familienplaner, haushaltsplaner, essensplaner — in headlines and titles. Compounds win attention; spaced phrases (kalender familie, familien organizer, to do liste familie) convert better and belong in subheads and link text. A smooth paraphrase like "gemeinsam den Alltag organisieren" reads well and matches nothing anyone searches for.
 
 ---
 
@@ -147,11 +153,12 @@ Before delivering any draft, internally check:
 
 - [ ] Does the opening earn attention?
 - [ ] Is the one main goal of this piece clear?
+- [ ] Does it lead to a named product anchor (and do Premium links point to web checkout)?
 - [ ] Is the CTA appropriate and not forced?
 - [ ] Does it sound like familymind — warm, credible, human?
 - [ ] Is it specific enough to feel real, not generic?
 - [ ] Is the format right for the channel?
-- [ ] Is it free of dashes in the final copy?
+- [ ] Is it free of dashes in the final copy (em, en, and spaced hyphens; verbatim quotes excepted)?
 - [ ] Is it free of generic startup phrases?
 - [ ] Is it copy-paste ready?
 

@@ -5,8 +5,19 @@ description: "familymind company and brand marketing across channels. Use when c
 
 # familymind marketing skill
 
-> **Last reviewed:** 2026-06-04 · **Owner:** Rosa (CEO)
+> **Last reviewed:** 2026-10-10 · **Owner:** Rosa (CEO)
 > **Founder voice:** For anything in Rosa's personal founder voice, defer to `linkedin/SKILL.md` (the source of truth). This file owns brand/company voice and the company page.
+> **Comms engine rules:** how content is planned, approved, scheduled and published (slots, gates, the guard, channel lanes) lives in the `fm-social-accounts` repo: `docs/00-engine-rules.md` first, then `docs/17`, `docs/engine/` and the channel skills in `.claude/skills/`. This file owns voice and messaging; where they overlap, the repo wins on process.
+
+## Rule 1: everything leads to the product
+
+Every asset names **one product anchor**, the thing we deliver that it leads to:
+- a use case or feature of the app or the web app (Meal Planning with Mira, Even for load sharing, Familiengespräche, Familien-Briefing, the chat and command bar, the Sunday check-in, two-way calendar sync, famory / Family Memory, the proactive push, inviting the partner)
+- **Premium**: always point to **checkout in the web app** (app.familymind.ai), not the App Store or Play Store. Both work; the web margin is higher.
+- **The Mental Load Shift** (open cohorts and corporate pilots such as Merz Lifecare)
+- the funnel engines: the **Mental Load Test** (`familymind.ai/mental-load-score`) and the **printables** (`familymind.ai/printables`)
+
+The anchor is where a piece leads; the CTA tier (awareness, engagement, conversion) is how loudly it asks. An awareness post with no CTA still dramatises a moment a named feature solves. A piece that cannot name its anchor is not ready.
 
 ## Purpose
 
@@ -72,7 +83,7 @@ familymind should always be written in lowercase.
 
 ### Stage and framing
 
-familymind is in active product development with beta users. Do not frame familymind as actively crowdfunding. Frame it as a growing product with early users, momentum, and a clear mission.
+familymind is live: the app has been in the App Store and Play Store since the official launch mail of 31 Aug 2026, and the web app (app.familymind.ai) opened to every family in October 2026. There is a free version and Premium (one subscription per family). The Mental Load Shift runs as an open cohort and as a corporate pilot with Merz Lifecare. Do not frame familymind as actively crowdfunding; the campaign is finished. Frame it as a growing product with real users, momentum, and a clear mission.
 
 ---
 
@@ -80,7 +91,7 @@ familymind is in active product development with beta users. Do not frame family
 
 ### Primary goals
 - grow awareness and trust in familymind
-- attract new users, waitlist signups, beta users, or app downloads
+- attract new users: Mental Load Test takers, web app and app signups, Premium upgrades (via web checkout)
 - improve brand recall and category understanding
 - show why familymind matters in real life, not just in theory
 
@@ -139,7 +150,7 @@ Always follow these rules:
 - do not overuse rhetorical drama
 - do not sound like generic LinkedIn growth content
 - do not sound robotic or templated
-- do not use dashes in the final copy
+- do not use dashes in the final copy: no em dash, no en dash, no spaced hyphen used as a dash (compound words like Mental-Load-Test are fine; verbatim quotes stay verbatim)
 - prefer smooth, complete sentences
 - use numerals for numbers
 - keep jargon low unless the audience clearly expects it
@@ -173,6 +184,26 @@ Use these pillars repeatedly across assets, but with variation.
 **Social impact** — familymind is not just convenience tech. It addresses a real social and economic problem: unequal care work, the mental load crisis, and the cost of coordination failure in families.
 
 **Time back** — familymind helps families spend less time managing logistics and more time living.
+
+---
+
+## Demand vocabulary — how to open, versus what to say
+
+Source: Apple Search Ads Germany, Jul–Aug 2026. €197, 4,595 impressions, **20 installs**. Directional, not conclusive — quote the ranking between groups, never a single keyword's number. Full readout: `fm-social-accounts/docs/15-paid-search-demand-signals.md`.
+
+**The pillars above are what we say. They are not how people search.** German families never type the wedge. Zero searches for mental load, fairness, Vereinbarkeit or Aufgabenverteilung. They type **kalender, planer, liste, organizer, haushalt, essen, einkauf**.
+
+**The rule: hook in chore vocabulary, convert in mental load.** Open on the concrete object the reader already has a word for — the calendar, the week plan, the shopping list, the household. Name the mental load in the middle. Close on fairness and the quiz. Never open on wedge vocabulary in anything meant to be *found* — search, ads, or an App Store listing. In content people already follow us for, the wedge can lead.
+
+What the data supports:
+
+- **Family-framed language converts about 2× generic productivity language** (CPA €7.89 vs €15.67). Write "familienplaner", "kalender familie", "familien organizer" — never generic "aufgabenliste" / "to-do" framing. That lane belongs to Notion, literally: 84% of our "aufgabenliste" spend went to people searching Notion, Obsidian and TickTick.
+- **German compounds win attention; spaced phrases win conversion.** Compounds (haushaltsplaner, familienkalender, familienplaner) pulled the highest tap-through — use them in **headlines and titles**, in the compound form a German reader actually types. Spaced phrases (kalender familie, familien organizer, to do liste familie) converted best — use them in **subheads and link anchors**.
+- **Do not lead on "gemeinsamer/geteilter Kalender".** Above-average taps, the worst conversion in the account. The promise attracts and the payoff does not land. Fix the payoff before using the promise.
+- **Four validated concrete anchors** to rotate through: the shared family calendar, the week plan, the meal plan and shopping list, the household plan. Meal planning is the cheapest open seam — highest tap-through in the account on the smallest impression base.
+- **Validated adjacent audience: Notion.** German parents searching Notion in the App Store do convert. The angle — *the family system you don't have to build yourself* — is ours to use.
+
+Our own traffic says the same thing: the best-performing article on the site ("10 best AI tools to keep your family organized", ~22% of all traffic) has chore vocabulary in the title and mental load in the body.
 
 ---
 
@@ -225,6 +256,8 @@ Rules:
 - FAQ sections are good when they improve search relevance
 - use search-intent-aware structure where helpful
 - do not force the product into every paragraph; product integration should feel earned
+- apply the demand vocabulary rule: the target term goes in the title, H1 and opening paragraph in the compound form people type; the mental load enters from the middle. A German title that says "gemeinsam den Alltag organisieren" does not match "familienplaner" and will not rank for it.
+- there is no head term to win in this category in German. Build clusters of many small long-tail pages rather than chasing one keyword.
 
 ### Instagram
 

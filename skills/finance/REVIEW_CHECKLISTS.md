@@ -29,17 +29,17 @@ Use for every finance-related asset.
 
 ### Wording check
 - [ ] Did I avoid calling the company profitable if that is not explicitly true?
-- [ ] Did I avoid calling the company fully break-even if only recurring license costs are covered?
+- [ ] Did I avoid calling the company fully break-even unless that is confirmed?
 - [ ] Did I avoid implying institutional funding has happened?
-- [ ] Did I avoid implying angels are on the cap table if they are not?
-- [ ] Did I avoid implying the founders are already drawing salaries?
+- [ ] Did I avoid implying anyone is on the cap table who is not?
+- [ ] Did I state founder salary status only as confirmed?
 - [ ] Did I use conservative, credible language?
 
 ### Context check
-- [ ] Did I note that the current lean operating structure is helped by the absence of salary payouts?
-- [ ] Did I frame revenue coverage correctly as license-cost coverage, not full operating profitability?
-- [ ] Did I keep the company founder-owned in wording unless updated otherwise?
-- [ ] Did I keep the cap table description consistent with founder ownership?
+- [ ] Did I state how salary status affects any efficiency claim?
+- [ ] Did I frame revenue coverage correctly, not as full operating profitability?
+- [ ] Did I describe ownership as confirmed in the live facts?
+- [ ] Did I keep the cap table description consistent with the live facts?
 
 ### Output quality check
 - [ ] Is the logic easy to follow?
@@ -65,14 +65,14 @@ If the asset contradicts the Tier 0 block, fix it before sending.
 Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, due diligence summaries, fundraising memos.
 
 ### Must confirm
-- [ ] Founder-owned and clean cap table language is correct
+- [ ] Ownership and cap table language is correct
 - [ ] No institutional round is implied
 - [ ] Any funding reference distinguishes secured amount from cash on hand
 - [ ] Submitted grant applications are not presented as secured funding
-- [ ] Business angel money is not described as cap table participation unless explicitly updated
+- [ ] Early funding is not described as cap table participation unless confirmed
 - [ ] Current cash is described correctly
-- [ ] Revenue coverage is described as covering recurring license costs only
-- [ ] No salary payouts are acknowledged where relevant to efficiency claims
+- [ ] Revenue coverage is described only as far as confirmed
+- [ ] Salary status is acknowledged where relevant to efficiency claims
 - [ ] Any growth or efficiency claim is defensible
 - [ ] All numeric claims come from live context or the model
 
@@ -91,8 +91,6 @@ Use for pitch deck finance slides, investor emails, investor FAQs, one-pagers, d
 - capital-efficient
 - lean founder-led build
 - early monetization proof
-- revenues currently cover recurring software license costs
-- founder-owned with early external funding secured
 - non-dilutive grant funding (applications pending)
 - disciplined cost structure
 
@@ -129,7 +127,7 @@ Use for founder updates, internal planning notes, budget snapshots, strategy mem
 - [ ] Current cash is shown distinctly
 - [ ] Secured funding history is shown distinctly
 - [ ] Recurring revenue coverage is described accurately
-- [ ] Missing salary costs are acknowledged if talking about efficiency
+- [ ] Salary status is acknowledged if talking about efficiency
 - [ ] Model assumptions are not mistaken for actuals
 - [ ] Risks and unknowns are explicit
 
@@ -161,11 +159,11 @@ Use for fundraising decks, partner decks, strategy decks.
 
 Run this 30-second check before sending any finance output:
 - [ ] Did I confuse cash with funding secured?
-- [ ] Did I confuse the 60k secured with the 60k Digitalbonus+ application?
+- [ ] Did I confuse secured amounts with application amounts?
 - [ ] Did I present a submitted grant application as secured funding?
-- [ ] Did I imply angels are equity holders already?
+- [ ] Did I imply anyone is an equity holder who is not?
 - [ ] Did I imply profitability?
-- [ ] Did I forget that no salaries are paid?
+- [ ] Did I state salary status correctly?
 - [ ] Did I use deck numbers instead of model numbers?
 - [ ] Did I overstate certainty?
 
